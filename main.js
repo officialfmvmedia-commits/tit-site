@@ -2,7 +2,7 @@
    $TIT — set the contract address here at launch. That's it.
    Leave it as "" until the real CA exists. Never guess one.
    ============================================================ */
-const CA = "TiTT99eqg2xNLsmbHWgdE4u17uRTtVq4tyHedRqKue6";
+const CA = "";
 
 (function () {
   "use strict";
