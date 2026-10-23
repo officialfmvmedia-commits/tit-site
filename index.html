@@ -25,7 +25,7 @@
 <meta name="twitter:image" content="https://titmeme.fun/assets/og.png">
 <link rel="preload" href="fonts/fredoka-var.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="assets/tit-dome.webp" as="image" type="image/webp">
-<link rel="stylesheet" href="styles.css?v=3">
+<link rel="stylesheet" href="styles.css?v=5">
 </head>
 <body>
 
@@ -64,7 +64,6 @@
           <span data-copy-label>Copy</span>
         </button>
       </div>
-      <p class="ca__note" data-ca-note>The only real contract address will be posted here at launch. Anything else is not us.</p>
 
       <div class="cta">
         <a class="pill pill--green" data-buy href="#buy" aria-disabled="true">Buy on pump.fun <span class="pill__tag" data-buy-tag>soon</span></a>
@@ -98,18 +97,22 @@
   </div>
 
   <section class="lore" id="lore">
+    <div class="lore__top">
     <div class="section-head">
       <p class="kicker"><span class="dot"></span> The lore</p>
       <h2>It was hiding in plain sight.</h2>
       <p class="lead">pump.fun's tagline is <b>"Trade Internet Trends."</b> Millions of people have read it. Now take the first letter of each word.</p>
     </div>
-
-
     <figure class="receipt">
       <span class="receipt__tag">Receipt</span>
-      <blockquote class="receipt__quote">&ldquo;<em>T</em>rade <em>i</em>nternet <em>t</em>rends.&rdquo;</blockquote>
-      <figcaption class="receipt__src">The bio on pump.fun's official X account. <a href="https://x.com/Pumpfun" target="_blank" rel="noopener">See it on @Pumpfun &#8599;</a><span class="receipt__fine">$TIT is not affiliated with pump.fun.</span></figcaption>
+      <a class="receipt__shot" href="https://x.com/Pumpfun" target="_blank" rel="noopener" aria-label="pump.fun's X profile, bio reads Trade internet trends.">
+        <picture><source srcset="assets/pumpfun-x-bio.webp" type="image/webp"><img src="assets/pumpfun-x-bio.png" width="601" height="318" alt="Screenshot of pump.fun's X profile. The bio reads: Trade internet trends." loading="lazy"></picture>
+      </a>
+      <figcaption class="receipt__src">Straight from pump.fun's X bio. <a href="https://x.com/Pumpfun" target="_blank" rel="noopener">See it on @Pumpfun &#8599;</a></figcaption>
     </figure>
+    </div>
+
+
 
     <div class="acro">
       <article class="acro__card">
@@ -159,10 +162,9 @@
       <li class="step">
         <span class="step__n">04</span>
         <h3>Paste the CA</h3>
-        <p>Once the CA is live on this page, copy it from here, paste it into the search on pump.fun, double-check it matches, and buy.</p>
+        <p>Copy the CA from the top of this page, paste it into the search on pump.fun and buy.</p>
       </li>
     </ol>
-    <p class="warn">Only trust the CA shown on this site. Check every character before you buy.</p>
   </section>
 
   <section class="socials" id="socials">
@@ -181,6 +183,6 @@
 </footer>
 
 <div class="toast" role="status" aria-live="polite"></div>
-<script src="main.js" defer></script>
+<script src="main.js?v=2" defer></script>
 </body>
 </html>

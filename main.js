@@ -33,7 +33,6 @@ const CA = "";
     value.title = ca;
     copyBtn.disabled = false;
     copyBtn.removeAttribute("aria-disabled");
-    note.textContent = "This is the only official $TIT contract address.";
     const short = ca.slice(0, 4) + "…" + ca.slice(-4);
     $$("[data-ca-short]").forEach((el) => (el.textContent = short));
     const url = "https://pump.fun/coin/" + encodeURIComponent(ca);
