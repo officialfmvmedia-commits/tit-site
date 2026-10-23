@@ -193,3 +193,14 @@ h2{margin:0 0 14px;font-size:clamp(36px,5.4vw,72px);line-height:.98;font-weight:
   .kicker{font-size:12px;padding:6px 12px}
 }
 @media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}}
+
+/* receipt */
+.receipt{margin:40px 0 0;max-width:760px;position:relative;padding:30px 34px 26px;border-radius:28px;background:linear-gradient(180deg,rgba(134,239,172,.07),rgba(134,239,172,.02));border:1px solid var(--line)}
+.receipt__tag{position:absolute;top:-13px;left:28px;background:var(--g);color:#04120a;font-weight:700;font-size:12px;letter-spacing:.12em;text-transform:uppercase;padding:5px 12px;border-radius:var(--r)}
+.receipt__quote{margin:0;font-size:clamp(30px,4.4vw,52px);font-weight:700;line-height:1.1;color:var(--ink);letter-spacing:-.01em}
+.receipt__quote em{color:var(--g)}
+.receipt__src{margin-top:14px;color:var(--mute);font-size:15px;display:flex;flex-wrap:wrap;gap:4px 10px;align-items:baseline}
+.receipt__src a{font-weight:600;text-decoration:none;border-bottom:1px solid rgba(134,239,172,.35)}
+.receipt__src a:hover{border-color:var(--g2)}
+.receipt__fine{flex-basis:100%;font-size:12px;opacity:.6}
+@media (max-width:560px){.receipt{padding:26px 22px 22px;border-radius:22px}}
